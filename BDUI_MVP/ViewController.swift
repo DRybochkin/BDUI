@@ -52,8 +52,8 @@ private extension ViewController {
         view.backgroundColor = .gray
         view.addSubview(rootView)
         // Проверка предварительного расчета состояний
-        _ = layouter.update(frame: CGRect(x: view.bounds.origin.x, y: view.bounds.origin.y, width: view.bounds.height, height: view.bounds.width))
-        _ = layouter.update(frame: view.bounds)
+//        _ = layouter.update(frame: CGRect(x: view.bounds.origin.x, y: view.bounds.origin.y, width: view.bounds.height, height: view.bounds.width))
+//        _ = layouter.update(frame: view.bounds)
         layouter.calculate(parentFrame: view.bounds)
         rootView.calculateFrame()
 //        encodeElement()
