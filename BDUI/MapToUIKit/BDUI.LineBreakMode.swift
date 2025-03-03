@@ -1,5 +1,5 @@
 //
-//  BDUI.Element.Properties.LineBreakMode.swift
+//  BDUI.LineBreakMode.swift
 //  BDUI_MVP
 //
 //  Created by Rybochkin Dmitry on 28.02.2025.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension BDUI.Element.Properties {
+extension BDUI {
 
     enum LineBreakMode: Int, Codable, Equatable {
         

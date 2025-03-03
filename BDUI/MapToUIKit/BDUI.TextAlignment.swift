@@ -1,5 +1,5 @@
 //
-//  BDUI.Font.TextAlignment.swift
+//  BDUI.TextAlignment.swift
 //  BDUI_MVP
 //
 //  Created by Rybochkin Dmitry on 28.02.2025.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension BDUI.Font {
+extension BDUI {
     
     enum TextAlignment: Int, Codable, Equatable {
         

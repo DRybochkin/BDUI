@@ -7,5 +7,4 @@
 
 import Foundation
 
-enum BDUI {
-}
+enum BDUI {}

@@ -5,14 +5,24 @@
 //  Created by Rybochkin Dmitry on 26.02.2025.
 //
 
-import Foundation
+import UIKit
 
 extension BDUI {
     
-    protocol ViewLayoutProtocol {
+    protocol ViewLayoutProtocol: UIView {
         
         // MARK: - Properties
         
-        func calculateLayout()
+        static var identifier: String { get }
+        var factory: ViewFactoryProtocol { get }
+
+        // MARK: - Initializations
+        
+        init(layouter: Layouter)
+        
+        // MARK: - Functions
+        
+        func calculateFrame()
+        func update(layouter: Layouter)
     }
 }

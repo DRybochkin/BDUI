@@ -1,5 +1,5 @@
 //
-//  BDUI.Font.Weight.swift
+//  BDUI.Weight.swift
 //  BDUI_MVP
 //
 //  Created by Rybochkin Dmitry on 28.02.2025.
@@ -9,11 +9,18 @@ import Foundation
 
 extension BDUI.Font {
     
-    enum Weight: Codable, Equatable {
+    enum Weight: CGFloat, Codable, Equatable {
         
         // MARK: - Cases
         
-        case sans
-        case system
+        case ultraLight
+        case thin
+        case light
+        case regular
+        case medium
+        case semibold
+        case bold
+        case heavy
+        case black
     }
 }
