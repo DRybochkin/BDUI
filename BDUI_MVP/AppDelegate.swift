@@ -7,18 +7,6 @@
 
 import UIKit
 
-// TODO: - drybochkin
-
-/*
- 
- Поправить json структуру
- 
- Добавить свойства для каждого объекта (попробовать уневерсиальные) заранее не предопределенные
- 
- Добавить Маппинг данных и переменные
- 
- */
-
 @main
 final class AppDelegate: UIResponder, UIApplicationDelegate {
     

@@ -7,24 +7,6 @@
 
 import UIKit
 
-struct StoredState: Equatable {
-    let frame: CGRect
-    let frameWithPadding: CGRect
-    let insets: BDUI.Layout.EdgeInsets
-    
-    init(frame: CGRect, frameWithPadding: CGRect, insets: BDUI.Layout.EdgeInsets) {
-        self.frame = frame
-        self.frameWithPadding = frameWithPadding
-        self.insets = insets
-    }
-    
-    init(state: StoredState, frame: CGRect? = nil, frameWithPadding: CGRect? = nil, insets: BDUI.Layout.EdgeInsets? = nil) {
-        self.frame = frame ?? state.frame
-        self.frameWithPadding = frameWithPadding ?? state.frameWithPadding
-        self.insets = insets ?? state.insets
-    }
-}
-
 extension BDUI {
     
     final class Layouter {
@@ -82,6 +64,7 @@ extension BDUI {
             let isChildsCalculated = frames.allSatisfy { $0.isCalculated }
             
             // TODO: - drybochkin нужно построить дерево обхода и считать только 1 раз
+            // хак чтобы не попасть в рекурсии, но кажется не рабочий
             let maximumAttempt = 2
             var attempt = 0
             while !isChildsCalculated, attempt < maximumAttempt {
@@ -97,7 +80,6 @@ extension BDUI {
             case .object, .fixed, .dynamicWidth, .dynamicHeight, .subviewsWidth, .subviewsHeight:
                 return false
             case let .absolute(currentFrame, padding):
-                // TODO: - drybochkin нужно кешировать фреймы для разных размеров 
                 guard currentFrame != frame else { return false }
                 let layout = BDUI.Layout(frame: .absolute(frame: frame, padding: padding))
                 guard element.layout != layout else { return false }
@@ -335,6 +317,8 @@ private extension BDUI.Layouter {
                                   width: state.frame.width,
                                   height: state.frame.height)
         if parentFrame.height < currentFrame.maxY {
+            // TODO: - drybochkin пересчитать дочерние элементы и подумать как сделать сжатие настраиваемым,
+            // сейчас уменьшается любой элемент вышедший за границу, что неверное
             currentFrame = CGRect(x: currentFrame.origin.x,
                                   y: currentFrame.origin.y,
                                   width: currentFrame.width,
@@ -355,6 +339,8 @@ private extension BDUI.Layouter {
                                   width: state.frame.width,
                                   height: state.frame.height)
         if parentFrame.width < currentFrame.maxX {
+            // TODO: - drybochkin пересчитать дочерние элементы и подумать как сделать сжатие настраиваемым,
+            // сейчас уменьшается любой элемент вышедший за границу, что неверное
             currentFrame = CGRect(x: currentFrame.origin.x,
                                   y: currentFrame.origin.y,
                                   width: currentFrame.width - currentFrame.maxX + parentFrame.width - state.insets.right,
@@ -384,10 +370,6 @@ private extension BDUI.Layouter {
         state = StoredState(state: state, frame: currentFrame)
         let frames = calculateSubLayouters()
         let calculatedFrame = calculate(frames: frames)
-        if calculatedFrame.height > state.frameWithPadding.height {
-            // TODO: - drybochkin recalculate subitems
-        }
-        print(">>>>>>", element.elementId, calculatedFrame, state.frameWithPadding.height, parentFrameWithPadding.height)
         let height = min(calculatedFrame.height, state.frameWithPadding.height, parentFrameWithPadding.height)
         let rect = BDUI.Layout.Rect(rect: rect, height: .absolute(height))
         state = StoredState(state: state, frame: calculate(rect: rect))

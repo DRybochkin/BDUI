@@ -14,8 +14,8 @@
             filePath = "BDUI/Layouter/DBUI.Layouter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "378"
-            endingLineNumber = "378"
+            startingLineNumber = "364"
+            endingLineNumber = "364"
             landmarkName = "calculateSubviewsHeight(parentFrame:rect:padding:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "BDUI/Layouter/DBUI.Layouter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "385"
-            endingLineNumber = "385"
+            startingLineNumber = "371"
+            endingLineNumber = "371"
             landmarkName = "calculateSubviewsHeight(parentFrame:rect:padding:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "BDUI/Layouter/DBUI.Layouter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "342"
-            endingLineNumber = "342"
+            startingLineNumber = "326"
+            endingLineNumber = "326"
             landmarkName = "calculateDynamicHeight(parentFrame:rect:padding:)"
             landmarkType = "7">
          </BreakpointContent>

@@ -44,7 +44,7 @@ private extension ViewController {
     // MARK: - Private functions
     
     func configure() {
-        let element = load(isManual: true)
+        let element = load(isManual: false)
         let layouter = BDUI.Layouter(element: element, parent: nil)
         let rootView = factory.resolve(layouter: layouter) ?? BDUI.ContainerView(layouter: layouter)
         self.layouter = layouter
@@ -83,11 +83,12 @@ private extension ViewController {
         }
     }
     
-    func createSample1() -> BDUI.Element { // TODO: - drybochkin нужно заменить на парсинг из JSON
+    func createSample1() -> BDUI.Element {
         let rootElement = BDUI.Element(frame: UIScreen.main.bounds,
                                        identifier: BDUI.ContainerView.identifier,
                                        properties: .view(BDUI.Element.Properties.View(backgroundColor: "#FFFFFF")),
-                                       // TODO: - drybochkin именованные паддинги/офсеты/инсеты
+                                       // TODO: - drybochkin именованные паддинги и другие элементы для сокращения json
+                                       // TODO: - drybochkin подумать нужны ли релативные паддинги
                                        padding: .simple(value: .absolute(50)))
 
         let backgroundRect = BDUI.Layout.Rect(x: .relative(.superview(.left())),
@@ -201,7 +202,7 @@ private extension ViewController {
                                                    properties: .label(BDUI.Element.Properties.Label(text: text, numberOfLines: 0, backgroundColor: "#9933AA77", color: "#000000", lineBreakMode: .byTruncatingTail)))
         panelRightBottomElement.add(element: rightBottomLabelElement)
 
-        let rightBottomLabelRect1 = BDUI.Layout.Rect(x: .relative(.superview(.left())),
+        let rightBottomLabelRect1 = BDUI.Layout.Rect(x: .relative(.superview(.right())),
                                                      y: .relative(.element(elementId: "RightBottomLabel", type: .bottom())),
                                                      width: .relative(.superview(.width(.multiply(0.5)))))
         let rightBottomLabelFrame1 = BDUI.Layout.Frame.dynamicHeight(rect: rightBottomLabelRect1, padding: .simple(value: .absolute(16)))
@@ -211,6 +212,9 @@ private extension ViewController {
                                                     layout: rightBottomLabelLayout1,
                                                     properties: .label(BDUI.Element.Properties.Label(text: text, numberOfLines: 0, backgroundColor: "#9933AA77", color: "#000000", lineBreakMode: .byTruncatingTail)))
         panelRightBottomElement.add(element: rightBottomLabelElement1)
+
+        // TODO: - drybochkin Нужен пример реально объекта с динамической высотой и шириной
+        // TODO: - drybochkin Нужен пример объекта с вычисляемой внутри размерами
 
         return rootElement
     }

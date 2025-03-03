@@ -45,6 +45,7 @@
 		4A0D89332D745BDF00DBFB5B /* BDUI+CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89322D745BDF00DBFB5B /* BDUI+CGRect.swift */; };
 		4A0D89372D74642B00DBFB5B /* BDUI.Layout.EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89362D74642B00DBFB5B /* BDUI.Layout.EdgeInsets.swift */; };
 		4A0D89392D74714100DBFB5B /* BDUI+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89382D74714100DBFB5B /* BDUI+CGFloat.swift */; };
+		4A0D89A72D75D60D00DBFB5B /* BDUI.Layouter.StoredState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89A62D75D60D00DBFB5B /* BDUI.Layouter.StoredState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		4A0D89322D745BDF00DBFB5B /* BDUI+CGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BDUI+CGRect.swift"; sourceTree = "<group>"; };
 		4A0D89362D74642B00DBFB5B /* BDUI.Layout.EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Layout.EdgeInsets.swift; sourceTree = "<group>"; };
 		4A0D89382D74714100DBFB5B /* BDUI+CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BDUI+CGFloat.swift"; sourceTree = "<group>"; };
+		4A0D89A62D75D60D00DBFB5B /* BDUI.Layouter.StoredState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Layouter.StoredState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -214,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				4A0D51A42D706E1D00DBFB5B /* DBUI.Layouter.swift */,
+				4A0D89A62D75D60D00DBFB5B /* BDUI.Layouter.StoredState.swift */,
 			);
 			path = Layouter;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				4A0D891C2D71CD5500DBFB5B /* BDUI.Font.TextStyle.swift in Sources */,
 				4A0D89122D71CA6D00DBFB5B /* BDUI.Font.Family.swift in Sources */,
 				4A0D334C2D6F725300DBFB5B /* BDUI.Layout.Value.swift in Sources */,
+				4A0D89A72D75D60D00DBFB5B /* BDUI.Layouter.StoredState.swift in Sources */,
 				4A0D334A2D6F721D00DBFB5B /* BDUI.Layout.Frame.swift in Sources */,
 				4A0D891E2D71CD9700DBFB5B /* BDUI.Font.Weight.swift in Sources */,
 				4A0D51AA2D70AF4A00DBFB5B /* BDUI.Label.swift in Sources */,
