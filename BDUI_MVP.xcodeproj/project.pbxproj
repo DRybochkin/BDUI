@@ -6,8 +6,87 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4A0D33402D6F70F600DBFB5B /* DBUI.Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D333F2D6F70F600DBFB5B /* DBUI.Element.swift */; };
+		4A0D33442D6F715900DBFB5B /* DBUI.Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D33432D6F715900DBFB5B /* DBUI.Layout.swift */; };
+		4A0D33462D6F718500DBFB5B /* BDUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D33452D6F718500DBFB5B /* BDUI.swift */; };
+		4A0D334A2D6F721D00DBFB5B /* BDUI.Layout.Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D33492D6F721D00DBFB5B /* BDUI.Layout.Frame.swift */; };
+		4A0D334C2D6F725300DBFB5B /* BDUI.Layout.Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D334B2D6F725300DBFB5B /* BDUI.Layout.Value.swift */; };
+		4A0D334E2D6F728700DBFB5B /* BDUI.Layout.Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D334D2D6F728700DBFB5B /* BDUI.Layout.Anchor.swift */; };
+		4A0D33502D6F72C800DBFB5B /* DBUI.Layout.AnchorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D334F2D6F72C800DBFB5B /* DBUI.Layout.AnchorType.swift */; };
+		4A0D33522D6F730200DBFB5B /* BDUI.Layout.AnchorValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D33512D6F730200DBFB5B /* BDUI.Layout.AnchorValue.swift */; };
+		4A0D33562D6F74B300DBFB5B /* BDUI.ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D33552D6F74B300DBFB5B /* BDUI.ViewFactory.swift */; };
+		4A0D33592D6F750A00DBFB5B /* BDUI.ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D33582D6F750A00DBFB5B /* BDUI.ContainerView.swift */; };
+		4A0D335B2D6F76A300DBFB5B /* BDUI.ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D335A2D6F76A300DBFB5B /* BDUI.ImageView.swift */; };
+		4A0D35F02D6FA5F700DBFB5B /* BDUI.ViewLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D35EF2D6FA5F700DBFB5B /* BDUI.ViewLayoutProtocol.swift */; };
+		4A0D35F22D6FA96C00DBFB5B /* BDUI.ViewFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D35F12D6FA96C00DBFB5B /* BDUI.ViewFactoryProtocol.swift */; };
+		4A0D51A52D706E1D00DBFB5B /* DBUI.Layouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D51A42D706E1D00DBFB5B /* DBUI.Layouter.swift */; };
+		4A0D51AA2D70AF4A00DBFB5B /* BDUI.Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D51A92D70AF4A00DBFB5B /* BDUI.Label.swift */; };
+		4A0D6D582D718FD500DBFB5B /* BDUI.Element.Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D6D572D718FD500DBFB5B /* BDUI.Element.Properties.swift */; };
+		4A0D6D5B2D71951F00DBFB5B /* BDUI+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D6D5A2D71951F00DBFB5B /* BDUI+UIColor.swift */; };
+		4A0D890D2D71A86F00DBFB5B /* BDUI+NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D890C2D71A86F00DBFB5B /* BDUI+NSAttributedString.swift */; };
+		4A0D89102D71C9DA00DBFB5B /* BDUI.Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D890F2D71C9DA00DBFB5B /* BDUI.Font.swift */; };
+		4A0D89122D71CA6D00DBFB5B /* BDUI.Font.Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89112D71CA6D00DBFB5B /* BDUI.Font.Family.swift */; };
+		4A0D89142D71CAE900DBFB5B /* BDUI.Element.Properties.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89132D71CAE900DBFB5B /* BDUI.Element.Properties.View.swift */; };
+		4A0D89162D71CB3B00DBFB5B /* BDUI.Element.Properties.Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89152D71CB3B00DBFB5B /* BDUI.Element.Properties.Image.swift */; };
+		4A0D89182D71CB7B00DBFB5B /* BDUI.Element.Properties.Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89172D71CB7B00DBFB5B /* BDUI.Element.Properties.Label.swift */; };
+		4A0D891A2D71CC6100DBFB5B /* BDUI.LineBreakMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89192D71CC6100DBFB5B /* BDUI.LineBreakMode.swift */; };
+		4A0D891C2D71CD5500DBFB5B /* BDUI.Font.TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D891B2D71CD5500DBFB5B /* BDUI.Font.TextStyle.swift */; };
+		4A0D891E2D71CD9700DBFB5B /* BDUI.Font.Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D891D2D71CD9700DBFB5B /* BDUI.Font.Weight.swift */; };
+		4A0D89202D71CE6200DBFB5B /* BDUI.TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D891F2D71CE6200DBFB5B /* BDUI.TextAlignment.swift */; };
+		4A0D89232D71CF9500DBFB5B /* BDUI+NSLineBreakMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89222D71CF9500DBFB5B /* BDUI+NSLineBreakMode.swift */; };
+		4A0D89252D71D00200DBFB5B /* BDUI+TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89242D71D00200DBFB5B /* BDUI+TextAlignment.swift */; };
+		4A0D89272D71D1B900DBFB5B /* BDUI+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89262D71D1B900DBFB5B /* BDUI+UIFont.swift */; };
+		4A0D89292D71D35800DBFB5B /* BDUI+UIFont.Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89282D71D35800DBFB5B /* BDUI+UIFont.Weight.swift */; };
+		4A0D892B2D71D80100DBFB5B /* BDUI+UIFont.TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D892A2D71D80100DBFB5B /* BDUI+UIFont.TextStyle.swift */; };
+		4A0D892D2D73586B00DBFB5B /* BDUI.Layout.Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D892C2D73586B00DBFB5B /* BDUI.Layout.Padding.swift */; };
+		4A0D892F2D7361BA00DBFB5B /* BDUI.Layout.Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D892E2D7361BA00DBFB5B /* BDUI.Layout.Point.swift */; };
+		4A0D89312D7365A300DBFB5B /* BDUI.Layout.Rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89302D7365A300DBFB5B /* BDUI.Layout.Rect.swift */; };
+		4A0D89332D745BDF00DBFB5B /* BDUI+CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89322D745BDF00DBFB5B /* BDUI+CGRect.swift */; };
+		4A0D89372D74642B00DBFB5B /* BDUI.Layout.EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89362D74642B00DBFB5B /* BDUI.Layout.EdgeInsets.swift */; };
+		4A0D89392D74714100DBFB5B /* BDUI+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D89382D74714100DBFB5B /* BDUI+CGFloat.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4A0D33222D6F509400DBFB5B /* BDUI_MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDUI_MVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0D333F2D6F70F600DBFB5B /* DBUI.Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBUI.Element.swift; sourceTree = "<group>"; };
+		4A0D33432D6F715900DBFB5B /* DBUI.Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBUI.Layout.swift; sourceTree = "<group>"; };
+		4A0D33452D6F718500DBFB5B /* BDUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.swift; sourceTree = "<group>"; };
+		4A0D33492D6F721D00DBFB5B /* BDUI.Layout.Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Layout.Frame.swift; sourceTree = "<group>"; };
+		4A0D334B2D6F725300DBFB5B /* BDUI.Layout.Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Layout.Value.swift; sourceTree = "<group>"; };
+		4A0D334D2D6F728700DBFB5B /* BDUI.Layout.Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Layout.Anchor.swift; sourceTree = "<group>"; };
+		4A0D334F2D6F72C800DBFB5B /* DBUI.Layout.AnchorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBUI.Layout.AnchorType.swift; sourceTree = "<group>"; };
+		4A0D33512D6F730200DBFB5B /* BDUI.Layout.AnchorValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Layout.AnchorValue.swift; sourceTree = "<group>"; };
+		4A0D33552D6F74B300DBFB5B /* BDUI.ViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.ViewFactory.swift; sourceTree = "<group>"; };
+		4A0D33582D6F750A00DBFB5B /* BDUI.ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.ContainerView.swift; sourceTree = "<group>"; };
+		4A0D335A2D6F76A300DBFB5B /* BDUI.ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.ImageView.swift; sourceTree = "<group>"; };
+		4A0D35EF2D6FA5F700DBFB5B /* BDUI.ViewLayoutProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.ViewLayoutProtocol.swift; sourceTree = "<group>"; };
+		4A0D35F12D6FA96C00DBFB5B /* BDUI.ViewFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.ViewFactoryProtocol.swift; sourceTree = "<group>"; };
+		4A0D51A42D706E1D00DBFB5B /* DBUI.Layouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBUI.Layouter.swift; sourceTree = "<group>"; };
+		4A0D51A92D70AF4A00DBFB5B /* BDUI.Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Label.swift; sourceTree = "<group>"; };
+		4A0D6D572D718FD500DBFB5B /* BDUI.Element.Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Element.Properties.swift; sourceTree = "<group>"; };
+		4A0D6D5A2D71951F00DBFB5B /* BDUI+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BDUI+UIColor.swift"; sourceTree = "<group>"; };
+		4A0D890C2D71A86F00DBFB5B /* BDUI+NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BDUI+NSAttributedString.swift"; sourceTree = "<group>"; };
+		4A0D890F2D71C9DA00DBFB5B /* BDUI.Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Font.swift; sourceTree = "<group>"; };
+		4A0D89112D71CA6D00DBFB5B /* BDUI.Font.Family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Font.Family.swift; sourceTree = "<group>"; };
+		4A0D89132D71CAE900DBFB5B /* BDUI.Element.Properties.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Element.Properties.View.swift; sourceTree = "<group>"; };
+		4A0D89152D71CB3B00DBFB5B /* BDUI.Element.Properties.Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Element.Properties.Image.swift; sourceTree = "<group>"; };
+		4A0D89172D71CB7B00DBFB5B /* BDUI.Element.Properties.Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Element.Properties.Label.swift; sourceTree = "<group>"; };
+		4A0D89192D71CC6100DBFB5B /* BDUI.LineBreakMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.LineBreakMode.swift; sourceTree = "<group>"; };
+		4A0D891B2D71CD5500DBFB5B /* BDUI.Font.TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Font.TextStyle.swift; sourceTree = "<group>"; };
+		4A0D891D2D71CD9700DBFB5B /* BDUI.Font.Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Font.Weight.swift; sourceTree = "<group>"; };
+		4A0D891F2D71CE6200DBFB5B /* BDUI.TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.TextAlignment.swift; sourceTree = "<group>"; };
+		4A0D89222D71CF9500DBFB5B /* BDUI+NSLineBreakMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BDUI+NSLineBreakMode.swift"; sourceTree = "<group>"; };
+		4A0D89242D71D00200DBFB5B /* BDUI+TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BDUI+TextAlignment.swift"; sourceTree = "<group>"; };
+		4A0D89262D71D1B900DBFB5B /* BDUI+UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BDUI+UIFont.swift"; sourceTree = "<group>"; };
+		4A0D89282D71D35800DBFB5B /* BDUI+UIFont.Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BDUI+UIFont.Weight.swift"; sourceTree = "<group>"; };
+		4A0D892A2D71D80100DBFB5B /* BDUI+UIFont.TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BDUI+UIFont.TextStyle.swift"; sourceTree = "<group>"; };
+		4A0D892C2D73586B00DBFB5B /* BDUI.Layout.Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Layout.Padding.swift; sourceTree = "<group>"; };
+		4A0D892E2D7361BA00DBFB5B /* BDUI.Layout.Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Layout.Point.swift; sourceTree = "<group>"; };
+		4A0D89302D7365A300DBFB5B /* BDUI.Layout.Rect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Layout.Rect.swift; sourceTree = "<group>"; };
+		4A0D89322D745BDF00DBFB5B /* BDUI+CGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BDUI+CGRect.swift"; sourceTree = "<group>"; };
+		4A0D89362D74642B00DBFB5B /* BDUI.Layout.EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDUI.Layout.EdgeInsets.swift; sourceTree = "<group>"; };
+		4A0D89382D74714100DBFB5B /* BDUI+CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BDUI+CGFloat.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +124,7 @@
 		4A0D33192D6F509400DBFB5B = {
 			isa = PBXGroup;
 			children = (
+				4A0D33532D6F739D00DBFB5B /* BDUI */,
 				4A0D33242D6F509400DBFB5B /* BDUI_MVP */,
 				4A0D33232D6F509400DBFB5B /* Products */,
 			);
@@ -56,6 +136,123 @@
 				4A0D33222D6F509400DBFB5B /* BDUI_MVP.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0D333E2D6F70E200DBFB5B /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D33432D6F715900DBFB5B /* DBUI.Layout.swift */,
+				4A0D33492D6F721D00DBFB5B /* BDUI.Layout.Frame.swift */,
+				4A0D334B2D6F725300DBFB5B /* BDUI.Layout.Value.swift */,
+				4A0D334D2D6F728700DBFB5B /* BDUI.Layout.Anchor.swift */,
+				4A0D334F2D6F72C800DBFB5B /* DBUI.Layout.AnchorType.swift */,
+				4A0D33512D6F730200DBFB5B /* BDUI.Layout.AnchorValue.swift */,
+				4A0D892C2D73586B00DBFB5B /* BDUI.Layout.Padding.swift */,
+				4A0D892E2D7361BA00DBFB5B /* BDUI.Layout.Point.swift */,
+				4A0D89302D7365A300DBFB5B /* BDUI.Layout.Rect.swift */,
+				4A0D89362D74642B00DBFB5B /* BDUI.Layout.EdgeInsets.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		4A0D33532D6F739D00DBFB5B /* BDUI */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D89212D71CEC100DBFB5B /* MapToUIKit */,
+				4A0D6D592D71950400DBFB5B /* Extensions */,
+				4A0D51A62D7070B400DBFB5B /* Layouter */,
+				4A0D35EE2D6FA5DD00DBFB5B /* Protocols */,
+				4A0D335C2D6F777D00DBFB5B /* Element */,
+				4A0D33572D6F74F400DBFB5B /* Views */,
+				4A0D33542D6F74A300DBFB5B /* Factories */,
+				4A0D33452D6F718500DBFB5B /* BDUI.swift */,
+				4A0D333E2D6F70E200DBFB5B /* Layout */,
+			);
+			path = BDUI;
+			sourceTree = "<group>";
+		};
+		4A0D33542D6F74A300DBFB5B /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D33552D6F74B300DBFB5B /* BDUI.ViewFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		4A0D33572D6F74F400DBFB5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D33582D6F750A00DBFB5B /* BDUI.ContainerView.swift */,
+				4A0D335A2D6F76A300DBFB5B /* BDUI.ImageView.swift */,
+				4A0D51A92D70AF4A00DBFB5B /* BDUI.Label.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A0D335C2D6F777D00DBFB5B /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D333F2D6F70F600DBFB5B /* DBUI.Element.swift */,
+				4A0D6D572D718FD500DBFB5B /* BDUI.Element.Properties.swift */,
+				4A0D89132D71CAE900DBFB5B /* BDUI.Element.Properties.View.swift */,
+				4A0D89152D71CB3B00DBFB5B /* BDUI.Element.Properties.Image.swift */,
+				4A0D89172D71CB7B00DBFB5B /* BDUI.Element.Properties.Label.swift */,
+			);
+			path = Element;
+			sourceTree = "<group>";
+		};
+		4A0D35EE2D6FA5DD00DBFB5B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D35EF2D6FA5F700DBFB5B /* BDUI.ViewLayoutProtocol.swift */,
+				4A0D35F12D6FA96C00DBFB5B /* BDUI.ViewFactoryProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4A0D51A62D7070B400DBFB5B /* Layouter */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D51A42D706E1D00DBFB5B /* DBUI.Layouter.swift */,
+			);
+			path = Layouter;
+			sourceTree = "<group>";
+		};
+		4A0D6D592D71950400DBFB5B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D6D5A2D71951F00DBFB5B /* BDUI+UIColor.swift */,
+				4A0D890C2D71A86F00DBFB5B /* BDUI+NSAttributedString.swift */,
+				4A0D89222D71CF9500DBFB5B /* BDUI+NSLineBreakMode.swift */,
+				4A0D89242D71D00200DBFB5B /* BDUI+TextAlignment.swift */,
+				4A0D89262D71D1B900DBFB5B /* BDUI+UIFont.swift */,
+				4A0D89282D71D35800DBFB5B /* BDUI+UIFont.Weight.swift */,
+				4A0D892A2D71D80100DBFB5B /* BDUI+UIFont.TextStyle.swift */,
+				4A0D89322D745BDF00DBFB5B /* BDUI+CGRect.swift */,
+				4A0D89382D74714100DBFB5B /* BDUI+CGFloat.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A0D890E2D71C9C900DBFB5B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D891B2D71CD5500DBFB5B /* BDUI.Font.TextStyle.swift */,
+				4A0D891D2D71CD9700DBFB5B /* BDUI.Font.Weight.swift */,
+				4A0D890F2D71C9DA00DBFB5B /* BDUI.Font.swift */,
+				4A0D89112D71CA6D00DBFB5B /* BDUI.Font.Family.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		4A0D89212D71CEC100DBFB5B /* MapToUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D891F2D71CE6200DBFB5B /* BDUI.TextAlignment.swift */,
+				4A0D89192D71CC6100DBFB5B /* BDUI.LineBreakMode.swift */,
+				4A0D890E2D71C9C900DBFB5B /* Font */,
+			);
+			path = MapToUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +329,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0D33462D6F718500DBFB5B /* BDUI.swift in Sources */,
+				4A0D89182D71CB7B00DBFB5B /* BDUI.Element.Properties.Label.swift in Sources */,
+				4A0D89252D71D00200DBFB5B /* BDUI+TextAlignment.swift in Sources */,
+				4A0D33442D6F715900DBFB5B /* DBUI.Layout.swift in Sources */,
+				4A0D89292D71D35800DBFB5B /* BDUI+UIFont.Weight.swift in Sources */,
+				4A0D33402D6F70F600DBFB5B /* DBUI.Element.swift in Sources */,
+				4A0D6D582D718FD500DBFB5B /* BDUI.Element.Properties.swift in Sources */,
+				4A0D89102D71C9DA00DBFB5B /* BDUI.Font.swift in Sources */,
+				4A0D89142D71CAE900DBFB5B /* BDUI.Element.Properties.View.swift in Sources */,
+				4A0D89392D74714100DBFB5B /* BDUI+CGFloat.swift in Sources */,
+				4A0D35F02D6FA5F700DBFB5B /* BDUI.ViewLayoutProtocol.swift in Sources */,
+				4A0D6D5B2D71951F00DBFB5B /* BDUI+UIColor.swift in Sources */,
+				4A0D892B2D71D80100DBFB5B /* BDUI+UIFont.TextStyle.swift in Sources */,
+				4A0D334E2D6F728700DBFB5B /* BDUI.Layout.Anchor.swift in Sources */,
+				4A0D892D2D73586B00DBFB5B /* BDUI.Layout.Padding.swift in Sources */,
+				4A0D89202D71CE6200DBFB5B /* BDUI.TextAlignment.swift in Sources */,
+				4A0D51A52D706E1D00DBFB5B /* DBUI.Layouter.swift in Sources */,
+				4A0D89312D7365A300DBFB5B /* BDUI.Layout.Rect.swift in Sources */,
+				4A0D35F22D6FA96C00DBFB5B /* BDUI.ViewFactoryProtocol.swift in Sources */,
+				4A0D890D2D71A86F00DBFB5B /* BDUI+NSAttributedString.swift in Sources */,
+				4A0D891A2D71CC6100DBFB5B /* BDUI.LineBreakMode.swift in Sources */,
+				4A0D89272D71D1B900DBFB5B /* BDUI+UIFont.swift in Sources */,
+				4A0D89372D74642B00DBFB5B /* BDUI.Layout.EdgeInsets.swift in Sources */,
+				4A0D33502D6F72C800DBFB5B /* DBUI.Layout.AnchorType.swift in Sources */,
+				4A0D33562D6F74B300DBFB5B /* BDUI.ViewFactory.swift in Sources */,
+				4A0D89332D745BDF00DBFB5B /* BDUI+CGRect.swift in Sources */,
+				4A0D89162D71CB3B00DBFB5B /* BDUI.Element.Properties.Image.swift in Sources */,
+				4A0D33592D6F750A00DBFB5B /* BDUI.ContainerView.swift in Sources */,
+				4A0D89232D71CF9500DBFB5B /* BDUI+NSLineBreakMode.swift in Sources */,
+				4A0D891C2D71CD5500DBFB5B /* BDUI.Font.TextStyle.swift in Sources */,
+				4A0D89122D71CA6D00DBFB5B /* BDUI.Font.Family.swift in Sources */,
+				4A0D334C2D6F725300DBFB5B /* BDUI.Layout.Value.swift in Sources */,
+				4A0D334A2D6F721D00DBFB5B /* BDUI.Layout.Frame.swift in Sources */,
+				4A0D891E2D71CD9700DBFB5B /* BDUI.Font.Weight.swift in Sources */,
+				4A0D51AA2D70AF4A00DBFB5B /* BDUI.Label.swift in Sources */,
+				4A0D33522D6F730200DBFB5B /* BDUI.Layout.AnchorValue.swift in Sources */,
+				4A0D892F2D7361BA00DBFB5B /* BDUI.Layout.Point.swift in Sources */,
+				4A0D335B2D6F76A300DBFB5B /* BDUI.ImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +385,6 @@
 				INFOPLIST_FILE = BDUI_MVP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -178,7 +412,6 @@
 				INFOPLIST_FILE = BDUI_MVP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

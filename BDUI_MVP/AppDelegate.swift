@@ -7,30 +7,60 @@
 
 import UIKit
 
+// TODO: - drybochkin
+
+/*
+ 
+ Поправить json структуру
+ 
+ Добавить свойства для каждого объекта (попробовать уневерсиальные) заранее не предопределенные
+ 
+ Добавить Маппинг данных и переменные
+ 
+ */
+
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+final class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    // MARK: - Properties
+    
+    var window: UIWindow?
+    private(set) static var factory: BDUI.ViewFactoryProtocol = BDUI.ViewFactory().registerAll()
+    
+    // MARK: - Functions
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        self.window = window
+        window.rootViewController = ViewController()
+        window.makeKeyAndVisible()
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
-
+    
 }
 
+extension BDUI.ViewLayoutProtocol {
+    
+    // MARK: - Abstract properties
+    
+    var factory: BDUI.ViewFactoryProtocol { AppDelegate.factory }
+}
+
+extension UIViewController {
+    
+    // MARK: - Abstract properties
+    
+    var factory: BDUI.ViewFactoryProtocol { AppDelegate.factory }
+}
+
+private extension BDUI.ViewFactoryProtocol {
+    
+    // MARK: - Properties
+    
+    func registerAll() -> BDUI.ViewFactoryProtocol {
+        register { BDUI.ContainerView(layouter: $0) }
+        register { BDUI.ImageView(layouter: $0) }
+        register { BDUI.Label(layouter: $0) }
+        return self
+    }
+}

@@ -1,0 +1,1009 @@
+{
+  "layout": {
+    "frame": {
+      "frame": [
+        [
+          0,
+          0
+        ],
+        [
+          820,
+          1180
+        ]
+      ],
+      "type": "absolute",
+      "padding": {
+        "left": {
+          "value": 50,
+          "type": "absolute"
+        },
+        "bottom": {
+          "type": "absolute",
+          "value": 50
+        },
+        "right": {
+          "value": 50,
+          "type": "absolute"
+        },
+        "top": {
+          "type": "absolute",
+          "value": 50
+        }
+      }
+    }
+  },
+  "elementId": "ED86F86A-F3C2-4B9F-A10C-5A906A712B7D",
+  "elements": [
+    {
+      "layout": {
+        "frame": {
+          "padding": {
+            "bottom": {
+              "type": "absolute",
+              "value": 32
+            },
+            "right": {
+              "type": "absolute",
+              "value": 32
+            },
+            "top": {
+              "value": 32,
+              "type": "absolute"
+            },
+            "left": {
+              "type": "absolute",
+              "value": 32
+            }
+          },
+          "type": "fixed",
+          "rect": {
+            "width": {
+              "type": "relative",
+              "anchor": {
+                "anchorType": {
+                  "type": "width",
+                  "anchorValue": {
+                    "type": "empty"
+                  }
+                },
+                "type": "superview"
+              }
+            },
+            "height": {
+              "anchor": {
+                "type": "superview",
+                "anchorType": {
+                  "anchorValue": {
+                    "type": "empty"
+                  },
+                  "type": "height"
+                }
+              },
+              "type": "relative"
+            },
+            "x": {
+              "anchor": {
+                "type": "superview",
+                "anchorType": {
+                  "anchorValue": {
+                    "type": "empty"
+                  },
+                  "type": "left"
+                }
+              },
+              "type": "relative"
+            },
+            "y": {
+              "type": "relative",
+              "anchor": {
+                "anchorType": {
+                  "type": "top",
+                  "anchorValue": {
+                    "type": "empty"
+                  }
+                },
+                "type": "superview"
+              }
+            }
+          }
+        }
+      },
+      "elementId": "backgroundView",
+      "elements": [
+        {
+          "layout": {
+            "frame": {
+              "padding": {
+                "right": {
+                  "value": 16,
+                  "type": "absolute"
+                },
+                "bottom": {
+                  "value": 16,
+                  "type": "absolute"
+                },
+                "left": {
+                  "type": "absolute",
+                  "value": 16
+                },
+                "top": {
+                  "type": "absolute",
+                  "value": 16
+                }
+              },
+              "rect": {
+                "x": {
+                  "anchor": {
+                    "anchorType": {
+                      "anchorValue": {
+                        "type": "empty"
+                      },
+                      "type": "left"
+                    },
+                    "type": "superview"
+                  },
+                  "type": "relative"
+                },
+                "width": {
+                  "anchor": {
+                    "type": "superview",
+                    "anchorType": {
+                      "type": "width",
+                      "anchorValue": {
+                        "value": 0.5,
+                        "type": "multiply",
+                        "offset": -8
+                      }
+                    }
+                  },
+                  "type": "relative"
+                },
+                "height": {
+                  "type": "relative",
+                  "anchor": {
+                    "anchorType": {
+                      "type": "height",
+                      "anchorValue": {
+                        "value": 0.5,
+                        "offset": -8,
+                        "type": "multiply"
+                      }
+                    },
+                    "type": "superview"
+                  }
+                },
+                "y": {
+                  "type": "relative",
+                  "anchor": {
+                    "anchorType": {
+                      "type": "top",
+                      "anchorValue": {
+                        "type": "empty"
+                      }
+                    },
+                    "type": "superview"
+                  }
+                }
+              },
+              "type": "fixed"
+            }
+          },
+          "elementId": "TopLeftView",
+          "properties": {
+            "value": {
+              "clipToBounds": false,
+              "backgroundColor": "#11448877",
+              "cornerRadius": 16
+            },
+            "type": "view"
+          },
+          "elementType": "ContainerView",
+          "elements": [
+            {
+              "properties": {
+                "type": "label",
+                "value": {
+                  "font": {
+                    "lineHeight": 21,
+                    "family": {
+                      "type": "system",
+                      "size": 17,
+                      "weight": {
+                        "regular": {}
+                      }
+                    },
+                    "textStyle": "title1"
+                  },
+                  "backgroundColor": "#9933AA77",
+                  "text": "Длинный текст может еще длиннее  fdsfsdfdsfdsf fdsfsdfsdf Длинный текст может еще длиннее авфафааываыва ffdsfsdfsdfds fdsfsdfdsfdsf fdsfsdfsdf",
+                  "color": "#000000",
+                  "textAligment": 4,
+                  "lineBreakMode": 4,
+                  "numberOfLines": 0
+                }
+              },
+              "elements": [],
+              "layout": {
+                "frame": {
+                  "rect": {
+                    "x": {
+                      "type": "relative",
+                      "anchor": {
+                        "anchorType": {
+                          "type": "centerX",
+                          "anchorValue": {
+                            "type": "empty"
+                          }
+                        },
+                        "type": "superview"
+                      }
+                    },
+                    "y": {
+                      "type": "relative",
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "anchorValue": {
+                            "type": "empty"
+                          },
+                          "type": "centerY"
+                        }
+                      }
+                    },
+                    "width": {
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "anchorValue": {
+                            "offset": 0,
+                            "type": "multiply",
+                            "value": 0.2
+                          },
+                          "type": "width"
+                        }
+                      },
+                      "type": "relative"
+                    },
+                    "height": {
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "type": "height",
+                          "anchorValue": {
+                            "type": "empty"
+                          }
+                        }
+                      },
+                      "type": "relative"
+                    }
+                  },
+                  "padding": {
+                    "bottom": {
+                      "type": "absolute",
+                      "value": 16
+                    },
+                    "top": {
+                      "type": "absolute",
+                      "value": 16
+                    },
+                    "left": {
+                      "value": 16,
+                      "type": "absolute"
+                    },
+                    "right": {
+                      "value": 16,
+                      "type": "absolute"
+                    }
+                  },
+                  "type": "dynamicHeight"
+                }
+              },
+              "elementType": "Label",
+              "elementId": "LeftTopLabel"
+            }
+          ]
+        },
+        {
+          "elementType": "ContainerView",
+          "layout": {
+            "frame": {
+              "type": "fixed",
+              "rect": {
+                "y": {
+                  "type": "relative",
+                  "anchor": {
+                    "anchorType": {
+                      "type": "top",
+                      "anchorValue": {
+                        "type": "empty"
+                      }
+                    },
+                    "type": "superview"
+                  }
+                },
+                "height": {
+                  "anchor": {
+                    "type": "superview",
+                    "anchorType": {
+                      "type": "height",
+                      "anchorValue": {
+                        "offset": -8,
+                        "type": "multiply",
+                        "value": 0.5
+                      }
+                    }
+                  },
+                  "type": "relative"
+                },
+                "x": {
+                  "type": "relative",
+                  "anchor": {
+                    "type": "superview",
+                    "anchorType": {
+                      "type": "right",
+                      "anchorValue": {
+                        "type": "empty"
+                      }
+                    }
+                  }
+                },
+                "width": {
+                  "type": "relative",
+                  "anchor": {
+                    "anchorType": {
+                      "anchorValue": {
+                        "type": "multiply",
+                        "value": 0.5,
+                        "offset": -8
+                      },
+                      "type": "width"
+                    },
+                    "type": "superview"
+                  }
+                }
+              },
+              "padding": {
+                "right": {
+                  "type": "absolute",
+                  "value": 16
+                },
+                "top": {
+                  "value": 16,
+                  "type": "absolute"
+                },
+                "left": {
+                  "type": "absolute",
+                  "value": 16
+                },
+                "bottom": {
+                  "type": "absolute",
+                  "value": 16
+                }
+              }
+            }
+          },
+          "properties": {
+            "value": {
+              "clipToBounds": false,
+              "cornerRadius": 16,
+              "backgroundColor": "#99226677"
+            },
+            "type": "view"
+          },
+          "elements": [
+            {
+              "properties": {
+                "value": {
+                  "font": {
+                    "textStyle": "title1",
+                    "family": {
+                      "weight": {
+                        "regular": {}
+                      },
+                      "type": "system",
+                      "size": 17
+                    },
+                    "lineHeight": 21
+                  },
+                  "textAligment": 4,
+                  "numberOfLines": 4,
+                  "text": "Длинный текст может еще длиннее  fdsfsdfdsfdsf fdsfsdfsdf Длинный текст может еще длиннее авфафааываыва ffdsfsdfsdfds fdsfsdfdsfdsf fdsfsdfsdf",
+                  "backgroundColor": "#9933AA77",
+                  "color": "#000000",
+                  "lineBreakMode": 4
+                },
+                "type": "label"
+              },
+              "layout": {
+                "frame": {
+                  "padding": {
+                    "right": {
+                      "value": 16,
+                      "type": "absolute"
+                    },
+                    "left": {
+                      "value": 16,
+                      "type": "absolute"
+                    },
+                    "top": {
+                      "value": 16,
+                      "type": "absolute"
+                    },
+                    "bottom": {
+                      "type": "absolute",
+                      "value": 16
+                    }
+                  },
+                  "type": "dynamicHeight",
+                  "rect": {
+                    "y": {
+                      "type": "relative",
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "type": "bottom",
+                          "anchorValue": {
+                            "type": "empty"
+                          }
+                        }
+                      }
+                    },
+                    "height": {
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "type": "height",
+                          "anchorValue": {
+                            "type": "empty"
+                          }
+                        }
+                      },
+                      "type": "relative"
+                    },
+                    "width": {
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "type": "width",
+                          "anchorValue": {
+                            "type": "multiply",
+                            "value": 0.5,
+                            "offset": 0
+                          }
+                        }
+                      },
+                      "type": "relative"
+                    },
+                    "x": {
+                      "type": "relative",
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "type": "centerX",
+                          "anchorValue": {
+                            "type": "empty"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "elementType": "Label",
+              "elements": [],
+              "elementId": "RightTopLabel"
+            }
+          ],
+          "elementId": "RightLeftView"
+        },
+        {
+          "elementType": "ContainerView",
+          "elementId": "BottomLeftView",
+          "elements": [
+            {
+              "elementType": "Label",
+              "elementId": "LeftBottomLabel",
+              "layout": {
+                "frame": {
+                  "type": "dynamicHeight",
+                  "rect": {
+                    "x": {
+                      "anchor": {
+                        "anchorType": {
+                          "anchorValue": {
+                            "type": "empty"
+                          },
+                          "type": "left"
+                        },
+                        "type": "superview"
+                      },
+                      "type": "relative"
+                    },
+                    "width": {
+                      "type": "relative",
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "anchorValue": {
+                            "offset": 0,
+                            "type": "multiply",
+                            "value": 0.5
+                          },
+                          "type": "width"
+                        }
+                      }
+                    },
+                    "y": {
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "type": "bottom",
+                          "anchorValue": {
+                            "type": "empty"
+                          }
+                        }
+                      },
+                      "type": "relative"
+                    },
+                    "height": {
+                      "type": "relative",
+                      "anchor": {
+                        "anchorType": {
+                          "anchorValue": {
+                            "type": "empty"
+                          },
+                          "type": "height"
+                        },
+                        "type": "superview"
+                      }
+                    }
+                  },
+                  "padding": {
+                    "right": {
+                      "type": "absolute",
+                      "value": 16
+                    },
+                    "bottom": {
+                      "type": "absolute",
+                      "value": 16
+                    },
+                    "top": {
+                      "value": 16,
+                      "type": "absolute"
+                    },
+                    "left": {
+                      "type": "absolute",
+                      "value": 16
+                    }
+                  }
+                }
+              },
+              "elements": [],
+              "properties": {
+                "value": {
+                  "color": "#000000",
+                  "lineBreakMode": 4,
+                  "numberOfLines": 0,
+                  "text": "Длинный текст может еще длиннее  fdsfsdfdsfdsf fdsfsdfsdf Длинный текст может еще длиннее авфафааываыва ffdsfsdfsdfds fdsfsdfdsfdsf fdsfsdfsdf",
+                  "backgroundColor": "#9933AA77",
+                  "textAligment": 4,
+                  "font": {
+                    "lineHeight": 21,
+                    "family": {
+                      "type": "system",
+                      "size": 17,
+                      "weight": {
+                        "regular": {}
+                      }
+                    },
+                    "textStyle": "title1"
+                  }
+                },
+                "type": "label"
+              }
+            }
+          ],
+          "properties": {
+            "type": "view",
+            "value": {
+              "backgroundColor": "#33AA7777",
+              "cornerRadius": 16,
+              "clipToBounds": false
+            }
+          },
+          "layout": {
+            "frame": {
+              "rect": {
+                "x": {
+                  "type": "relative",
+                  "anchor": {
+                    "anchorType": {
+                      "type": "left",
+                      "anchorValue": {
+                        "type": "empty"
+                      }
+                    },
+                    "type": "superview"
+                  }
+                },
+                "width": {
+                  "type": "relative",
+                  "anchor": {
+                    "type": "superview",
+                    "anchorType": {
+                      "type": "width",
+                      "anchorValue": {
+                        "type": "multiply",
+                        "offset": -8,
+                        "value": 0.5
+                      }
+                    }
+                  }
+                },
+                "height": {
+                  "type": "relative",
+                  "anchor": {
+                    "anchorType": {
+                      "anchorValue": {
+                        "value": 0.5,
+                        "offset": -8,
+                        "type": "multiply"
+                      },
+                      "type": "height"
+                    },
+                    "type": "superview"
+                  }
+                },
+                "y": {
+                  "anchor": {
+                    "anchorType": {
+                      "anchorValue": {
+                        "type": "empty"
+                      },
+                      "type": "bottom"
+                    },
+                    "type": "superview"
+                  },
+                  "type": "relative"
+                }
+              },
+              "type": "subviewsHeight",
+              "padding": {
+                "bottom": {
+                  "type": "absolute",
+                  "value": 16
+                },
+                "top": {
+                  "value": 16,
+                  "type": "absolute"
+                },
+                "left": {
+                  "value": 16,
+                  "type": "absolute"
+                },
+                "right": {
+                  "type": "absolute",
+                  "value": 16
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "cornerRadius": 16,
+              "backgroundColor": "#BB448877",
+              "clipToBounds": false
+            },
+            "type": "view"
+          },
+          "elementType": "ContainerView",
+          "layout": {
+            "frame": {
+              "padding": {
+                "left": {
+                  "type": "absolute",
+                  "value": 16
+                },
+                "bottom": {
+                  "type": "absolute",
+                  "value": 16
+                },
+                "right": {
+                  "type": "absolute",
+                  "value": 16
+                },
+                "top": {
+                  "type": "absolute",
+                  "value": 16
+                }
+              },
+              "type": "subviewsHeight",
+              "rect": {
+                "x": {
+                  "type": "relative",
+                  "anchor": {
+                    "anchorType": {
+                      "type": "right",
+                      "anchorValue": {
+                        "type": "empty"
+                      }
+                    },
+                    "type": "superview"
+                  }
+                },
+                "y": {
+                  "type": "relative",
+                  "anchor": {
+                    "type": "element",
+                    "anchorType": {
+                      "anchorValue": {
+                        "type": "empty"
+                      },
+                      "type": "bottom"
+                    },
+                    "elementId": "RightLeftView"
+                  }
+                },
+                "height": {
+                  "anchor": {
+                    "anchorType": {
+                      "anchorValue": {
+                        "offset": -8,
+                        "type": "multiply",
+                        "value": 0.5
+                      },
+                      "type": "height"
+                    },
+                    "type": "superview"
+                  },
+                  "type": "relative"
+                },
+                "width": {
+                  "type": "relative",
+                  "anchor": {
+                    "type": "superview",
+                    "anchorType": {
+                      "anchorValue": {
+                        "type": "multiply",
+                        "value": 0.5,
+                        "offset": -8
+                      },
+                      "type": "width"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "elements": [
+            {
+              "properties": {
+                "type": "label",
+                "value": {
+                  "font": {
+                    "textStyle": "title1",
+                    "lineHeight": 21,
+                    "family": {
+                      "weight": {
+                        "regular": {}
+                      },
+                      "size": 17,
+                      "type": "system"
+                    }
+                  },
+                  "backgroundColor": "#9933AA77",
+                  "textAligment": 4,
+                  "color": "#000000",
+                  "numberOfLines": 3,
+                  "text": "Длинный текст может еще длиннее  fdsfsdfdsfdsf fdsfsdfsdf Длинный текст может еще длиннее авфафааываыва ffdsfsdfsdfds fdsfsdfdsfdsf fdsfsdfsdf",
+                  "lineBreakMode": 4
+                }
+              },
+              "elements": [],
+              "layout": {
+                "frame": {
+                  "padding": {
+                    "right": {
+                      "value": 16,
+                      "type": "absolute"
+                    },
+                    "top": {
+                      "type": "absolute",
+                      "value": 16
+                    },
+                    "bottom": {
+                      "type": "absolute",
+                      "value": 16
+                    },
+                    "left": {
+                      "value": 16,
+                      "type": "absolute"
+                    }
+                  },
+                  "type": "dynamicHeight",
+                  "rect": {
+                    "width": {
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "type": "width",
+                          "anchorValue": {
+                            "type": "multiply",
+                            "value": 0.5,
+                            "offset": 0
+                          }
+                        }
+                      },
+                      "type": "relative"
+                    },
+                    "height": {
+                      "type": "relative",
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "type": "height",
+                          "anchorValue": {
+                            "type": "empty"
+                          }
+                        }
+                      }
+                    },
+                    "y": {
+                      "type": "relative",
+                      "anchor": {
+                        "anchorType": {
+                          "type": "top",
+                          "anchorValue": {
+                            "type": "empty"
+                          }
+                        },
+                        "type": "superview"
+                      }
+                    },
+                    "x": {
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "anchorValue": {
+                            "type": "empty"
+                          },
+                          "type": "centerX"
+                        }
+                      },
+                      "type": "relative"
+                    }
+                  }
+                }
+              },
+              "elementType": "Label",
+              "elementId": "RightBottomLabel"
+            },
+            {
+              "elements": [],
+              "layout": {
+                "frame": {
+                  "padding": {
+                    "top": {
+                      "type": "absolute",
+                      "value": 16
+                    },
+                    "bottom": {
+                      "value": 16,
+                      "type": "absolute"
+                    },
+                    "right": {
+                      "value": 16,
+                      "type": "absolute"
+                    },
+                    "left": {
+                      "type": "absolute",
+                      "value": 16
+                    }
+                  },
+                  "rect": {
+                    "width": {
+                      "anchor": {
+                        "anchorType": {
+                          "anchorValue": {
+                            "offset": 0,
+                            "type": "multiply",
+                            "value": 0.5
+                          },
+                          "type": "width"
+                        },
+                        "type": "superview"
+                      },
+                      "type": "relative"
+                    },
+                    "height": {
+                      "anchor": {
+                        "type": "superview",
+                        "anchorType": {
+                          "type": "height",
+                          "anchorValue": {
+                            "type": "empty"
+                          }
+                        }
+                      },
+                      "type": "relative"
+                    },
+                    "x": {
+                      "anchor": {
+                        "anchorType": {
+                          "type": "left",
+                          "anchorValue": {
+                            "type": "empty"
+                          }
+                        },
+                        "type": "superview"
+                      },
+                      "type": "relative"
+                    },
+                    "y": {
+                      "type": "relative",
+                      "anchor": {
+                        "anchorType": {
+                          "anchorValue": {
+                            "type": "empty"
+                          },
+                          "type": "bottom"
+                        },
+                        "type": "element",
+                        "elementId": "RightBottomLabel"
+                      }
+                    }
+                  },
+                  "type": "dynamicHeight"
+                }
+              },
+              "elementId": "RightBottomLabel1",
+              "elementType": "Label",
+              "properties": {
+                "value": {
+                  "lineBreakMode": 4,
+                  "color": "#000000",
+                  "backgroundColor": "#9933AA77",
+                  "font": {
+                    "textStyle": "title1",
+                    "family": {
+                      "type": "system",
+                      "weight": {
+                        "regular": {}
+                      },
+                      "size": 17
+                    },
+                    "lineHeight": 21
+                  },
+                  "text": "Длинный текст может еще длиннее  fdsfsdfdsfdsf fdsfsdfsdf Длинный текст может еще длиннее авфафааываыва ffdsfsdfsdfds fdsfsdfdsfdsf fdsfsdfsdf",
+                  "numberOfLines": 0,
+                  "textAligment": 4
+                },
+                "type": "label"
+              }
+            }
+          ],
+          "elementId": "BottomRightView"
+        }
+      ],
+      "properties": {
+        "type": "view",
+        "value": {
+          "clipToBounds": false,
+          "backgroundColor": "#00337777",
+          "cornerRadius": 32
+        }
+      },
+      "elementType": "ContainerView"
+    }
+  ],
+  "properties": {
+    "value": {
+      "clipToBounds": false,
+      "backgroundColor": "#FFFFFF"
+    },
+    "type": "view"
+  },
+  "elementType": "ContainerView"
+}
