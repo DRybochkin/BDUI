@@ -1,5 +1,5 @@
 //
-//  BDUI.Element.Properties.Image.swift
+//  BDUI.Font.Style.swift
 //  BDUI_MVP
 //
 //  Created by Rybochkin Dmitry on 28.02.2025.

@@ -6,10 +6,3 @@
 //
 
 import Foundation
-
-extension CGFloat {
-    
-    // MARK: - Properties
-    
-    var isCalculated: Bool { self < CGFloat.greatestFiniteMagnitude }
-}

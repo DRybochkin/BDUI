@@ -1,5 +1,5 @@
 //
-//  BDUI.Layout.Frame.swift
+//  BDUI.Frame.swift
 //  BDUI_MVP
 //
 //  Created by Rybochkin Dmitry on 26.02.2025.

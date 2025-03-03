@@ -5,16 +5,16 @@
 //  Created by Rybochkin Dmitry on 28.02.2025.
 //
 
-import Foundation
+import UIKit
 
 extension BDUI {
     
     struct Font: Codable, Equatable {
-        
-        // MARK: - Properties
-        
-        let family: Family
+        let size: CGFloat
+        let fontName: String
         let lineHeight: CGFloat
+        let family: Family
         let textStyle: TextStyle
+        let weight: Weight
     }
 }

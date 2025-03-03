@@ -6,16 +6,3 @@
 //
 
 import Foundation
-
-extension BDUI.Layout {
-    
-    struct Point: Codable, Equatable {
-        
-        // MARK: - Properties
-        
-        static let empty = Point(x: .empty, y: .empty)
-
-        let x: Value
-        let y: Value
-    }
-}

@@ -1,5 +1,5 @@
 //
-//  BDUI.ViewLayoutProtocol.swift
+//  BDUI.Anchor.swift
 //  BDUI_MVP
 //
 //  Created by Rybochkin Dmitry on 26.02.2025.
@@ -9,10 +9,11 @@ import Foundation
 
 extension BDUI {
     
-    protocol ViewLayoutProtocol {
+    struct Anchor: Decodable {
         
         // MARK: - Properties
         
-        func calculateLayout()
+        let elementId: String
+        let type: AnchorType
     }
 }

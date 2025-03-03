@@ -1,5 +1,5 @@
 //
-//  BDUI.Layout.Value.swift
+//  BDUI.Value.swift
 //  BDUI_MVP
 //
 //  Created by Rybochkin Dmitry on 26.02.2025.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension BDUI.Layout {
+extension BDUI {
 
     enum Value: Decodable {
 
